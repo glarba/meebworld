@@ -33,33 +33,33 @@ public class Panel extends JPanel implements ActionListener {
     }
     public void draw(Graphics g) {
         //boolean cb = true;
-        Image grass1 = Toolkit.getDefaultToolkit().getImage("resources\\default\\floor\\grass\\grass1_j.png");
-        Image grass2 = Toolkit.getDefaultToolkit().getImage("resources\\default\\floor\\grass\\grass2_j.png");
-        Image grass3 = Toolkit.getDefaultToolkit().getImage("resources\\default\\floor\\grass\\grass3_j.png");
+        Image grass1 = Toolkit.getDefaultToolkit().getImage("resources/default/floor/grass/grass1_j.png");
+        Image grass2 = Toolkit.getDefaultToolkit().getImage("resources/default/floor/grass/grass2_j.png");
+        Image grass3 = Toolkit.getDefaultToolkit().getImage("resources/default/floor/grass/grass3_j.png");
         
-        Image ocean = Toolkit.getDefaultToolkit().getImage("resources\\default\\floor\\ocean_j.png");
-        Image beach = Toolkit.getDefaultToolkit().getImage("resources\\default\\floor\\beach_j.png");
-        Image water = Toolkit.getDefaultToolkit().getImage("resources\\default\\floor\\water_j.png");
-        Image tree = Toolkit.getDefaultToolkit().getImage("resources\\default\\object\\tree_j.png");
-        Image rock = Toolkit.getDefaultToolkit().getImage("resources\\default\\object\\rock_j.png");
-        Image coal = Toolkit.getDefaultToolkit().getImage("resources\\default\\object\\coal_j.png");
-        Image iron = Toolkit.getDefaultToolkit().getImage("resources\\default\\object\\iron_j.png");
-        Image smiley = Toolkit.getDefaultToolkit().getImage("resources\\default\\meeb\\smiley_j.png");
-        Image smileys = Toolkit.getDefaultToolkit().getImage("resources\\default\\meeb\\smileys_j.png");
-        Image smileyt = Toolkit.getDefaultToolkit().getImage("resources\\default\\meeb\\smileyt_j.png");
+        Image ocean = Toolkit.getDefaultToolkit().getImage("resources/default/floor/ocean_j.png");
+        Image beach = Toolkit.getDefaultToolkit().getImage("resources/default/floor/beach_j.png");
+        Image water = Toolkit.getDefaultToolkit().getImage("resources/default/floor/water_j.png");
+        Image tree = Toolkit.getDefaultToolkit().getImage("resources/default/object/tree_j.png");
+        Image rock = Toolkit.getDefaultToolkit().getImage("resources/default/object/rock_j.png");
+        Image coal = Toolkit.getDefaultToolkit().getImage("resources/default/object/coal_j.png");
+        Image iron = Toolkit.getDefaultToolkit().getImage("resources/default/object/iron_j.png");
+        Image smiley = Toolkit.getDefaultToolkit().getImage("resources/default/meeb/smiley_j.png");
+        Image smileys = Toolkit.getDefaultToolkit().getImage("resources/default/meeb/smileys_j.png");
+        Image smileyt = Toolkit.getDefaultToolkit().getImage("resources/default/meeb/smileyt_j.png");
 
-        Image paused = Toolkit.getDefaultToolkit().getImage("resources\\default\\ui\\pause.png");
-        Image pause0 = Toolkit.getDefaultToolkit().getImage("resources\\default\\ui\\pause0.png");
-        Image onex = Toolkit.getDefaultToolkit().getImage("resources\\default\\ui\\1x.png");
-        Image onex0 = Toolkit.getDefaultToolkit().getImage("resources\\default\\ui\\1x0.png");
-        Image twox = Toolkit.getDefaultToolkit().getImage("resources\\default\\ui\\2x.png");
-        Image twox0 = Toolkit.getDefaultToolkit().getImage("resources\\default\\ui\\2x0.png");
-        Image threex = Toolkit.getDefaultToolkit().getImage("resources\\default\\ui\\3x.png");
-        Image threex0 = Toolkit.getDefaultToolkit().getImage("resources\\default\\ui\\3x0.png");
+        Image paused = Toolkit.getDefaultToolkit().getImage("resources/default/ui/pause.png");
+        Image pause0 = Toolkit.getDefaultToolkit().getImage("resources/default/ui/pause0.png");
+        Image onex = Toolkit.getDefaultToolkit().getImage("resources/default/ui/1x.png");
+        Image onex0 = Toolkit.getDefaultToolkit().getImage("resources/default/ui/1x0.png");
+        Image twox = Toolkit.getDefaultToolkit().getImage("resources/default/ui/2x.png");
+        Image twox0 = Toolkit.getDefaultToolkit().getImage("resources/default/ui/2x0.png");
+        Image threex = Toolkit.getDefaultToolkit().getImage("resources/default/ui/3x.png");
+        Image threex0 = Toolkit.getDefaultToolkit().getImage("resources/default/ui/3x0.png");
         //if (cb) {
-        //    grass1 = Toolkit.getDefaultToolkit().getImage("resources\\cb\\grass.png");
-        //    grass2 = Toolkit.getDefaultToolkit().getImage("resources\\cb\\grass2.png");
-        //    grass3 = Toolkit.getDefaultToolkit().getImage("resources\\cb\\grass3.png");
+        //    grass1 = Toolkit.getDefaultToolkit().getImage("resources/cb/grass.png");
+        //    grass2 = Toolkit.getDefaultToolkit().getImage("resources/cb/grass2.png");
+        //    grass3 = Toolkit.getDefaultToolkit().getImage("resources/cb/grass3.png");
         //}
         String[][][] world = Generate.world;
         for (int i = 0; i < world.length; i++) {
